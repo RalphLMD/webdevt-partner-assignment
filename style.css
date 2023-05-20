@@ -50,8 +50,8 @@ section h1 {
 }
 
 a > h1:hover {
-  color: #d1d84b;
-  transition: all .2s;
+  color: transparent;
+  transition: all .1s;
 }
 
 .controller-img {
@@ -151,9 +151,7 @@ a > h1:hover {
 }
 
 .about-img:hover {
-  flex: 1 1 50%;
-  box-shadow: 0 5px;
-  transform: scale(0.7);
+
 }
 
 .about-content {
@@ -219,7 +217,7 @@ a > h1:hover {
   margin: 0.5rem;
   padding: 1rem;
   border: 2px solid #000000;
-  box-shadow: 5px 5px #d1d84b;
+  box-shadow: 5px 5px transparent;
   transform: scale(1, 1);
 }
 
